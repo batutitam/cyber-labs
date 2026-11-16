@@ -1,0 +1,12 @@
+Nov 14 08:10:12 lab-linux sshd[2101]: Accepted password for alex from 192.168.56.101 port 51230 ssh2
+Nov 14 08:10:12 lab-linux sshd[2101]: pam_unix(sshd:session): session opened for user alex(uid=1001) by (uid=0)
+Nov 14 08:15:44 lab-linux sudo: alex : TTY=pts/0 ; PWD=/home/alex ; USER=root ; COMMAND=/usr/bin/systemctl status ssh
+Nov 14 08:16:03 lab-linux sshd[2101]: pam_unix(sshd:session): session closed for user alex
+Nov 14 09:02:18 lab-linux sshd[2140]: Accepted publickey for maria from 192.168.56.102 port 51291 ssh2
+Nov 14 09:02:18 lab-linux sshd[2140]: pam_unix(sshd:session): session opened for user maria(uid=1002) by (uid=0)
+Nov 14 09:20:31 lab-linux sshd[2140]: pam_unix(sshd:session): session closed for user maria
+Nov 14 10:11:05 lab-linux sudo: alex : TTY=pts/0 ; PWD=/home/alex ; USER=root ; COMMAND=/usr/bin/apt update
+Nov 14 10:45:22 lab-linux sshd[2201]: Failed password for alex from 192.168.56.101 port 51400 ssh2
+Nov 14 10:45:29 lab-linux sshd[2201]: Accepted password for alex from 192.168.56.101 port 51400 ssh2
+Nov 14 10:45:29 lab-linux sshd[2201]: pam_unix(sshd:session): session opened for user alex(uid=1001) by (uid=0)
+Nov 14 11:03:47 lab-linux sshd[2201]: pam_unix(sshd:session): session closed for user alex

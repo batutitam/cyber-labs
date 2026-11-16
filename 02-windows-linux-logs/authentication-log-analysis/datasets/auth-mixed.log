@@ -1,0 +1,17 @@
+Nov 14 14:10:02 lab-linux sshd[4201]: Accepted publickey for maria from 192.0.2.40 port 51001 ssh2
+Nov 14 14:10:02 lab-linux sshd[4201]: pam_unix(sshd:session): session opened for user maria(uid=1002) by (uid=0)
+Nov 14 14:12:15 lab-linux sudo: maria : TTY=pts/1 ; PWD=/home/maria ; USER=root ; COMMAND=/usr/bin/systemctl status cron
+Nov 14 14:15:30 lab-linux sshd[4201]: pam_unix(sshd:session): session closed for user maria
+Nov 14 14:20:01 lab-linux sshd[4210]: Failed password for invalid user guest from 198.51.100.88 port 52001 ssh2
+Nov 14 14:20:04 lab-linux sshd[4211]: Failed password for invalid user backup from 198.51.100.88 port 52002 ssh2
+Nov 14 14:20:07 lab-linux sshd[4212]: Failed password for invalid user support from 198.51.100.88 port 52003 ssh2
+Nov 14 14:25:10 lab-linux sshd[4220]: Failed password for alex from 203.0.113.90 port 53001 ssh2
+Nov 14 14:25:18 lab-linux sshd[4220]: Accepted password for alex from 203.0.113.90 port 53001 ssh2
+Nov 14 14:25:18 lab-linux sshd[4220]: pam_unix(sshd:session): session opened for user alex(uid=1001) by (uid=0)
+Nov 14 14:26:01 lab-linux sudo: alex : TTY=pts/0 ; PWD=/home/alex ; USER=root ; COMMAND=/usr/bin/cat /etc/passwd
+Nov 14 14:30:00 lab-linux CRON[4230]: pam_unix(cron:session): session opened for user root(uid=0) by (uid=0)
+Nov 14 14:30:00 lab-linux CRON[4230]: pam_unix(cron:session): session closed for user root
+Nov 14 14:35:42 lab-linux sshd[4220]: pam_unix(sshd:session): session closed for user alex
+Nov 14 14:40:05 lab-linux sshd[4240]: Invalid user operator from 192.0.2.77 port 54001
+Nov 14 14:40:05 lab-linux sshd[4240]: Connection closed by invalid user operator 192.0.2.77 port 54001 [preauth]
+Nov 14 14:45:12 lab-linux sudo: maria : TTY=pts/1 ; PWD=/home/maria ; USER=root ; COMMAND=/usr/bin/journalctl -n 20

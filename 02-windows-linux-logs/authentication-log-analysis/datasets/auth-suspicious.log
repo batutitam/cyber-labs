@@ -1,0 +1,17 @@
+Nov 14 13:00:01 lab-linux sshd[3101]: Failed password for root from 203.0.113.45 port 44001 ssh2
+Nov 14 13:00:04 lab-linux sshd[3102]: Failed password for invalid user admin from 203.0.113.45 port 44002 ssh2
+Nov 14 13:00:07 lab-linux sshd[3103]: Failed password for invalid user test from 203.0.113.45 port 44003 ssh2
+Nov 14 13:00:10 lab-linux sshd[3104]: Failed password for alex from 203.0.113.45 port 44004 ssh2
+Nov 14 13:00:13 lab-linux sshd[3105]: Failed password for maria from 203.0.113.45 port 44005 ssh2
+Nov 14 13:00:16 lab-linux sshd[3106]: Failed password for invalid user oracle from 203.0.113.45 port 44006 ssh2
+Nov 14 13:00:19 lab-linux sshd[3107]: Failed password for root from 203.0.113.45 port 44007 ssh2
+Nov 14 13:00:22 lab-linux sshd[3108]: Failed password for alex from 203.0.113.45 port 44008 ssh2
+Nov 14 13:02:10 lab-linux sshd[3110]: Failed password for root from 198.51.100.27 port 45001 ssh2
+Nov 14 13:02:35 lab-linux sshd[3111]: Failed password for root from 198.51.100.27 port 45002 ssh2
+Nov 14 13:03:00 lab-linux sshd[3112]: Failed password for root from 198.51.100.27 port 45003 ssh2
+Nov 14 13:03:25 lab-linux sshd[3113]: Failed password for root from 198.51.100.27 port 45004 ssh2
+Nov 14 13:03:50 lab-linux sshd[3114]: Failed password for root from 198.51.100.27 port 45005 ssh2
+Nov 14 13:04:15 lab-linux sshd[3115]: Failed password for root from 198.51.100.27 port 45006 ssh2
+Nov 14 13:05:00 lab-linux sshd[3116]: Accepted password for alex from 198.51.100.27 port 45007 ssh2
+Nov 14 13:05:00 lab-linux sshd[3116]: pam_unix(sshd:session): session opened for user alex(uid=1001) by (uid=0)
+Nov 14 13:05:42 lab-linux sshd[3116]: pam_unix(sshd:session): session closed for user alex
