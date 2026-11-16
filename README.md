@@ -1,8 +1,10 @@
 # Cybersecurity Labs & Portfolio
 
-A collection of practical cybersecurity labs, technical investigations, Python tools, and security research projects.
+Коллекция практических лабораторных работ по информационной безопасности, технических исследований, Python-инструментов и проектов в области кибербезопасности.
 
-## Focus Areas
+Репозиторий содержит результаты самостоятельного обучения, практические задания и исследования, выполненные в контролируемой лабораторной среде.
+
+## Основные направления
 
 - Network Fundamentals and Traffic Analysis
 - Linux and Windows Security
@@ -12,33 +14,47 @@ A collection of practical cybersecurity labs, technical investigations, Python t
 - Python for Cybersecurity
 - AI Security
 
-## Repository Structure
+## Структура репозитория
 
-| Directory | Description |
+| Директория | Описание |
 |---|---|
-| `01-network-fundamentals/` | Networking, HTTP, and traffic analysis |
-| `02-windows-linux-logs/` | Operating system logs and analysis |
-| `03-phishing-investigation/` | Phishing analysis and investigation |
-| `04-siem-investigations/` | SIEM queries, alerts, and investigations |
-| `05-incident-response/` | Incident response exercises |
-| `06-python-tools/` | Python security tools and scripts |
+| `01-network-fundamentals/` | Основы сетевых технологий, HTTP и анализ сетевого трафика |
+| `02-windows-linux-logs/` | Анализ журналов событий Linux и Windows |
+| `03-phishing-investigation/` | Анализ и расследование фишинговых атак |
+| `04-siem-investigations/` | SIEM-запросы, анализ alerts и расследование событий |
+| `05-incident-response/` | Практические задания по Incident Response |
+| `06-python-tools/` | Инструменты и скрипты на Python для задач информационной безопасности |
 
-## Projects
+## Практические проекты
 
 ### 01. Network Fundamentals
 
-- [HTTP Server Lab](01-network-fundamentals/http-server-lab/README.md) — A local Python HTTP server demonstrating GET and POST requests, HTTP headers, JSON processing, and error handling.
+- [HTTP Server Lab](01-network-fundamentals/http-server-lab/README.md) — локальный HTTP-сервер на Python, демонстрирующий обработку GET и POST-запросов, HTTP headers, JSON и обработку ошибок.
+- Network Traffic Analysis Lab — анализ сетевого трафика с использованием Wireshark и tshark, изучение DNS, TCP и HTTP.
 
-## Learning Approach
+### 02. Windows and Linux Logs
 
-Projects are developed through hands-on exercises in controlled lab environments.
+- Linux System Log Analysis — исследование системных журналов Linux с использованием `journalctl` и командной строки.
+- Authentication Log Analysis — анализ Linux Authentication Logs, исследование SSH-аутентификации, обнаружение подозрительных попыток входа и оценка событий `sudo`.
 
-Each project documents its objectives, methodology, technical findings, and lessons learned.
+## Подход к обучению
 
-## Disclaimer
+Все проекты выполняются в формате практических лабораторных работ в локальной или специально подготовленной учебной среде.
 
-All exercises are conducted in local or explicitly authorized environments.
+Каждый проект включает:
 
-This repository is intended for educational and research purposes.
+- постановку задачи и цели исследования;
+- описание используемых инструментов и методологии;
+- анализ полученных данных;
+- технические наблюдения и выводы;
+- документацию и результаты практической работы.
 
-Projects are clearly identified as labs and should not be interpreted as professional production systems.
+Основной акцент сделан на практическом применении инструментов, анализе событий информационной безопасности и развитии навыков технического расследования.
+
+## Отказ от ответственности
+
+Все практические работы выполняются в локальной или явно разрешённой среде.
+
+Репозиторий предназначен исключительно для образовательных и исследовательских целей.
+
+Представленные проекты являются учебными лабораторными работами и не позиционируются как готовые промышленные решения.
